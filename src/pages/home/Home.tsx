@@ -4,6 +4,7 @@ import './home.scss'
        return (
          <div className="home">
            home
+           
          </div>
        )
      }
