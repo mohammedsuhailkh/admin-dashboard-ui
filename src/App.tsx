@@ -15,7 +15,7 @@ function App() {
       element: (
        <Home/>
       ),
-    },
+    }, 
     {
       path: "/user",
       element: (
