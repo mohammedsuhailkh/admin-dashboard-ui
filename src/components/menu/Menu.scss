@@ -1,0 +1,26 @@
+@import '../../styles/global.scss';
+.menu{
+    .item{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+    .title{
+        font-size: 12px;
+        font-weight: 200;
+        color: $softcolor;
+
+    }
+    .listItem{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        border-radius: 5px;
+
+        &:hover{
+            background-color: $softbg;
+        }
+    }
+}
