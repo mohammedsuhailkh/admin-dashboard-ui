@@ -11,7 +11,22 @@
     font-weight: bold;
     gap: 10px;
     }
+    .notification{
+        display: flex;
 
+        .notiNum{
+            border-radius: 50%;
+            background-color: red;
+            height: 15px;
+            width: 15px;
+            text-align: center;;
+            font-size: 11px;
+            margin-left: 2px;
+            position: absolute;
+            top: 16px;
+            justify-content: center;
+        }
+    }
     .icons{
     display: flex;
     align-items: center;

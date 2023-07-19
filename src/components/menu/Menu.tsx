@@ -14,6 +14,9 @@ const Menu = () => {
 
       <div className="item" key={item.id}>
         <span className="title">{item.title}</span>
+
+
+        {/* mapping htrough each of the child array */}
         {item.listItems.map((listItem) =>(
         
         <Link to={listItem.url} className='listItem' key={listItem.id}>
