@@ -326,3 +326,70 @@ export const pieData = [
        color: '#1D5D9B',
    },
 ]
+
+
+
+// line chart
+
+
+export const UserData = [
+    {
+      name: 'Jan',
+      "Active User": 4000,
+      sales: 2400,
+      
+    },
+    {
+      name: 'Feb',
+      "Active User": 3000,
+      sales: 1398,
+      
+    },
+    {
+      name: 'Mar',
+      "Active User": 2000,
+      sales: 9800,
+    },
+    {
+      name: 'May',
+      "Active User": 2780,
+      sales: 3908,
+    },
+    {
+      name: 'Jun',
+      "Active User": 1890,
+      sales: 4800,
+    },
+    {
+      name: 'July',
+      "Active User": 2390,
+      sales: 3800,
+    },
+    {
+      name: 'Aug',
+      "Active User": 3490,
+      sales: 300,
+    },
+    {
+      name: 'Sep',
+      "Active User": 6790,
+      sales: 430,
+    },
+    {
+      name: 'Oct',
+      "Active User": 1290,
+      sales: 400,
+    },
+    {
+      name: 'Nov',
+      "Active User": 7690,
+      sales: 4300,
+    },
+    {
+      name: 'Dec',
+      "Active User": 3490,
+      sales: 300,
+    },
+  
+    
+  ];
