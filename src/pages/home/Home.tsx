@@ -1,7 +1,9 @@
 import ChartBox from '../../components/chartBox/ChartBox'
 import TopBox from '../../components/topBox/topBox'
 import './home.scss'
-import { chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from '../../data'
+import { barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser, pieData } from '../../data'
+import Barchart from '../../components/barchart/Barchart'
+import Piechart from '../../components/piechart/Piechart'
      
      const Home = () => {
        return (
@@ -9,12 +11,12 @@ import { chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } fr
            <div className="box box1"><TopBox/></div>
            <div className="box box2"><ChartBox {...chartBoxUser}/></div>
            <div className="box box3"><ChartBox {...chartBoxProduct}/></div>
-           <div className="box box4"></div>
+           <div className="box box4"><Piechart pieData={pieData}/></div>
            <div className="box box5"><ChartBox {...chartBoxConversion}/></div>
            <div className="box box6"><ChartBox {...chartBoxRevenue}/></div>
            <div className="box box7">box7</div>
-           <div className="box box8">box8</div>
-           <div className="box box9">box9</div>
+           <div className="box box8"><Barchart {...barChartBoxRevenue}/></div>
+           <div className="box box9"><Barchart {...barChartBoxVisit}/></div>
 
            
          </div>

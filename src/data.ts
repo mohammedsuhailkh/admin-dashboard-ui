@@ -12,7 +12,7 @@ export const menu = [
             {
                 id : 2,
                 title : "Profile",
-                url : '/uasers/1',
+                url : '/users/1',
                 icon : "user.svg"
             },
         ],
@@ -213,16 +213,16 @@ export const chartBoxProduct = {
     icon: "productIcon.svg",
     title:"Total Products",
     number: "11.345",
-    dataKey: "users",
+    dataKey: "products",
     percentage: 15,
     chartData : [
-        { name: "sun", users: 400 },
-        { name: "mon", users: 111 },
-        { name: "tue", users: 300 },
-        { name: "wed", users: 354 },
-        { name: "thu", users: 410 },
-        { name: "fri", users: 786 },
-        { name: "sat", users: 420 },
+        { name: "sun", products: 400 },
+        { name: "mon", products: 111 },
+        { name: "tue", products: 300 },
+        { name: "wed", products: 354 },
+        { name: "thu", products: 410 },
+        { name: "fri", products: 786 },
+        { name: "sat", products: 420 },
       ]
       
 }
@@ -232,17 +232,17 @@ export const chartBoxRevenue = {
     icon: "revenueIcon.svg",
     title:"Total Revenue",
     number: "11.345",
-    dataKey: "users",
+    dataKey: "revenue",
     percentage: 45,
     chartData : [
         
-        { name: "sun", users: 111 },
-        { name: "mon", users: 676 },
-        { name: "tue", users: 300 },
-        { name: "wed", users: 432 },
-        { name: "thu", users: 410 },
-        { name: "fri", users: 967 },
-        { name: "sat", users: 420 },
+        { name: "sun", revenue: 111 },
+        { name: "mon", revenue: 676 },
+        { name: "tue", revenue: 300 },
+        { name: "wed", revenue: 432 },
+        { name: "thu", revenue: 410 },
+        { name: "fri", revenue: 967 },
+        { name: "sat", revenue: 420 },
       ]
       
 }
@@ -252,16 +252,77 @@ export const chartBoxConversion = {
     icon: "conversionIcon.svg",
     title:"Total Ratio",
     number: "11.345",
-    dataKey: "users",
+    dataKey: "ratio",
     percentage: -15,
     chartData : [
-        { name: "sun", users: 400 },
-        { name: "mon", users: 350 },
-        { name: "tue", users: 300 },
-        { name: "wed", users: 320 },
-        { name: "thu", users: 410 },
-        { name: "fri", users: 380 },
-        { name: "sat", users: 420 },
+        { name: "sun", ratio: 400 },
+        { name: "mon", ratio: 350 },
+        { name: "tue", ratio: 300 },
+        { name: "wed", ratio: 320 },
+        { name: "thu", ratio: 410 },
+        { name: "fri", ratio: 380 },
+        { name: "sat", ratio: 420 },
       ]
       
 }
+
+
+
+// barchart data
+
+export const barChartBoxVisit = {
+    title : 'Total Visit',
+    color : '#FF8042',
+    dataKey: 'visit',
+    chartData: [
+        { name: 'monday', visit: 4000 },
+        { name: 'tuesday', visit: 3432 },
+        { name: 'wednesday', visit: 6464 },
+        { name: 'thursday', visit: 2453 },
+        { name: 'friday', visit: 6576 },
+        { name: 'saturday', visit: 2354 },
+        { name: 'sunday', visit: 1244 },
+    ]
+}
+
+export const barChartBoxRevenue = {
+    title : 'Total Revenue',
+    color : '#7C73C0',
+    dataKey: 'revenue',
+    chartData: [
+        { name: 'monday', revenue: 1443 },
+        { name: 'tuesday', revenue: 7456 },
+        { name: 'wednesday', revenue: 4365 },
+        { name: 'thursday', revenue: 2344 },
+        { name: 'friday', revenue: 4664 },
+        { name: 'saturday', revenue: 6767 },
+        { name: 'sunday', revenue: 4000 },
+    ]
+}
+
+
+
+// piechart data
+
+export const pieData = [
+   {
+       name: 'Consoles',
+       sales: 700,
+       color: '#FBEEAC',
+   },
+   {
+       name: 'Mobiles',
+       sales: 300,
+       color: '#F4D160',
+   },
+   {
+       name: 'Laptops',
+       sales: 500,
+       color: '#75C2F6',
+   },
+   {
+       name: 'Tablets',
+       sales: 600,
+       color: '#1D5D9B',
+   },
+]
