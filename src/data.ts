@@ -329,7 +329,7 @@ export const pieData = [
 
 
 
-// line chart
+// line chart data
 
 
 export const UserData = [
@@ -337,58 +337,69 @@ export const UserData = [
       name: 'Jan',
       "Active User": 4000,
       sales: 2400,
+      revenue : 4674
       
     },
     {
       name: 'Feb',
       "Active User": 3000,
       sales: 1398,
+      revenue : 8759
       
     },
     {
       name: 'Mar',
       "Active User": 2000,
       sales: 9800,
+      revenue : 4957,
     },
     {
       name: 'May',
       "Active User": 2780,
       sales: 3908,
+      revenue : 4649,
     },
     {
       name: 'Jun',
       "Active User": 1890,
       sales: 4800,
+      revenue : 6490
     },
     {
       name: 'July',
       "Active User": 2390,
       sales: 3800,
+      revenue : 4793,
     },
     {
       name: 'Aug',
       "Active User": 3490,
       sales: 300,
+      revenue : 1254,
     },
     {
       name: 'Sep',
       "Active User": 6790,
       sales: 430,
+      revenue : 9346,
     },
     {
       name: 'Oct',
       "Active User": 1290,
       sales: 400,
+      revenue : 4387,
     },
     {
       name: 'Nov',
       "Active User": 7690,
       sales: 4300,
+      revenue : 4674,
     },
     {
       name: 'Dec',
       "Active User": 3490,
       sales: 300,
+      revenue : 4696,
     },
   
     

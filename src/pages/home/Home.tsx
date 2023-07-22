@@ -16,7 +16,7 @@ import { UserData } from '../../data'
            <div className="box box4"><Piechart pieData={pieData}/></div>
            <div className="box box5"><ChartBox {...chartBoxConversion}/></div>
            <div className="box box6"><ChartBox {...chartBoxRevenue}/></div>
-           <div className="box box7"><Linechart title={"User Analytics"} data={UserData} grid dataKey1={"Active User"} dataKey2={"sales"}/></div>
+           <div className="box box7"><Linechart title={"User Analytics"} data={UserData} grid dataKey1={"Active User"} dataKey2={"sales"} dataKey3={"revenue"}/></div>
            <div className="box box8"><Barchart {...barChartBoxRevenue}/></div>
            <div className="box box9"><Barchart {...barChartBoxVisit}/></div>
 

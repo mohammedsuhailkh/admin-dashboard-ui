@@ -1,18 +1,20 @@
 import './Linechart.scss';
-import { LineChart, Line, XAxis,  CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 type dataitem ={
     name : string;
     "Active User" : number;
     sales : number;
+    revenue: number;
 }
 type Props = {
     
     title : string;
-    data : dataitem[]
-    dataKey1 : string;
-    dataKey2 : string;
+    data : dataitem[];
     grid: true ;
+    dataKey1 : string | number;
+    dataKey2 : string | number;
+    dataKey3 : string | number;
 
 }
 const Linechart = (props : Props) => {
@@ -31,13 +33,14 @@ const Linechart = (props : Props) => {
             bottom: 5,
           }}
         >
-          <CartesianGrid strokeDasharray="3 3" />
+          
           <XAxis dataKey="name"  stroke="#ddddfd"/>
         
           <Tooltip />
           <Legend />
           {props.grid && <Line type="monotone" dataKey={props.dataKey1} stroke="#7C73C0" activeDot={{ r: 8 }} />}
           {props.grid && <Line type="monotone" dataKey={props.dataKey2} stroke="#FF8042" activeDot={{ r: 8 }} />}
+          {props.grid && <Line type="monotone" dataKey={props.dataKey3} stroke="#75C2F6" activeDot={{ r: 8 }} />}
         </LineChart>
       </ResponsiveContainer>
       </div>
