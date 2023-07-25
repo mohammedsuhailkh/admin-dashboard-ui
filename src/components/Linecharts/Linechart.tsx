@@ -11,7 +11,7 @@ type Props = {
     
     title : string;
     data : dataitem[];
-    grid: true ;
+    grid: any ;
     dataKey1 : string | number;
     dataKey2 : string | number;
     dataKey3 : string | number;

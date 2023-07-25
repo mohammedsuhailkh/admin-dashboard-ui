@@ -1,0 +1,53 @@
+.datatable{
+
+
+    .dataGrid{
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .MuiDataGrid-toolbarContainer{
+        flex-direction: row-reverse;
+    }
+
+    img{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .action{
+        display: flex;
+        align-items: center;
+        font-size: 5px;
+        justify-content: space-between;
+        cursor: pointer;
+
+        
+
+
+        .delete{
+           
+            margin-left: 10px;
+            transition: transform 0.3s ease; 
+        }
+
+        .view{
+            
+            transition: transform 0.3s ease; 
+            
+        }
+
+        .delete:hover{
+            transform: scale(1.2);
+            color: rgb(255, 38, 0);
+        }
+        .view:hover{
+            transform: scale(1.2);
+            color: green;
+        }
+    }
+
+    
+}
